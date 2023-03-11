@@ -11,3 +11,5 @@ Greeting.create(text: "¡Hola mundo!")
 Greeting.create(text: "Olá Mundo!")
 Greeting.create(text: "Bonjour le monde!")
 Greeting.create(text: "Hallo Welt!")
+
+# rails g scaffold_controller api/v1/greeting text:string --api --model-name=Greeting
