@@ -6,10 +6,10 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-Greeting.create(text: "Hello, world!")
-Greeting.create(text: "¡Hola mundo!")
-Greeting.create(text: "Olá Mundo!")
-Greeting.create(text: "Bonjour le monde!")
-Greeting.create(text: "Hallo Welt!")
+Greeting.create(text: 'Hello, world!')
+Greeting.create(text: '¡Hola mundo!')
+Greeting.create(text: 'Olá Mundo!')
+Greeting.create(text: 'Bonjour le monde!')
+Greeting.create(text: 'Hallo Welt!')
 
 # rails g scaffold_controller api/v1/greeting text:string --api --model-name=Greeting
